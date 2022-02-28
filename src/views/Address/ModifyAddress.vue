@@ -523,7 +523,7 @@ input {
 }
 .address {
   width: 100vw;
-  height: 3.85rem;
+  height: 3.86rem;
   position: absolute;
   bottom: 0;
   left: 0;
