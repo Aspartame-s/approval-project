@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.common-bg {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.common-bg2 {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background-color: #f3f3f3;
+  position: relative;
+  padding-bottom: 1rem;
+}
+.topTitle {
+  width: 100%;
+  height: 0.88rem;
+  font-size: 0.32rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font1 {
+  font-size: 0.24rem;
+}
+.font2 {
+  font-size: 0.36rem;
+  font-weight: 500;
+}
+.font3 {
+  font-size: 0.3rem;
+  font-weight: 500;
+}
+.font4 {
+  font-size: 0.28rem;
+  font-weight: 500;
+}
+.font5 {
+  font-size: 0.24rem;
+  color: #7d7d7d;
+}
+.font6 {
+  font-size: 0.3rem;
+  color: #fff;
+  font-weight: 500;
+}
+.font7 {
+  font-size: 0.28rem;
+}
+.list {
+  width: 100%;
+  height: auto;
+  padding: 0 0.25rem;
+}
+.list-item {
+  width: 100%;
+  height: 3rem;
+  background-color: #fff;
+  border-radius: 0.1rem;
+  padding: 0.15rem 0.18rem 0 0.3rem;
+  position: relative;
+  margin-bottom: 0.3rem;
+}
+.code {
+  margin-bottom: 0.22rem;
+}
+.completed {
+  width: 0.95rem;
+  height: 0.83rem;
+  position: absolute;
+  top: 0.18rem;
+  right: 0.22rem;
+  background-size: 100%;
+  background-image: url("../zhang@2x.png");
+}
+/* 待审核 */
+.state {
+  width: 1.2rem;
+  height: 0.42rem;
+  background-image: linear-gradient(to right, #bddfff, rgba(182, 211, 232, 0.2));
+  border-radius: 1rem 0 0 1rem;
+  position: absolute;
+  right: 0;
+  top: 0.13rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 审核驳回 */
+.state2 {
+  background-image: linear-gradient(to right, rgba(250, 213, 178, 1), rgba(255, 232, 211, 0.25));
+}
+/* 待评价 */
+.state3 {
+  background-image: linear-gradient(to right, rgba(208, 238, 215, 1), rgba(208, 238, 215, 0.26));
+}
+/* 实施中 */
+.state4 {
+  background-image: linear-gradient(to right, rgb(107, 30, 30), rgba(208, 238, 215, 0.26));
+}
+/* 待实施 */
+.state5 {
+  background-image: linear-gradient(to right, rgb(71, 188, 241), rgba(208, 238, 215, 0.26));
+}
+/* 待预约 */
+.state6 {
+  background-image: linear-gradient(to right, rgb(94, 184, 128), rgba(208, 238, 215, 0.26));
+}
+.title {
+  margin-bottom: 0.1rem;
+}
+.content {
+  margin-bottom: 0.28rem;
+}
+.time {
+  width: 100%;
+  height: 0.64rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.order-btn {
+  width: 1.32rem;
+  height: 0.64rem;
+  color: #005fe9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #b6b6b6;
+  border-radius: 0.1rem;
+  font-size: 0.26rem;
+  font-weight: 500;
+}
